@@ -1,3 +1,4 @@
+# Create empty list, and populate with original three Beatles
 beatles = []
 
 beatles.append("John Lennon")
@@ -6,6 +7,7 @@ beatles.append("George Harrison")
 
 print(beatles)
 
+# Prompt user to add Stu Sutcliffe and Pete Best
 stu = input("Add 'Stu Sutcliffe': ")
 pete = input("Add 'Pete Best': ")
 

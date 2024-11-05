@@ -118,7 +118,10 @@ class Game():
 
     return None
 
-  def show_stats(self):
+  def show_stats(self) -> None:
+    """
+    When called, function prints the played and win counts to the console.
+    """
     print(f"Played: {self.total_games_played} games")
     print(f"Won {self.win_count} games")
       
